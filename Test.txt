@@ -1,4 +1,6 @@
-Testing git setup. First go to your local Git directory.
+Testing git setup. Learn it thoroughly before using Git for actual usage.
+
+First go to your local Git directory.
 
 $ git config --global user.name "jatin009" //setting username
 
@@ -14,3 +16,4 @@ $ git commit -m "first commit" Test.txt	//Commiting the file
 
 $ git push -u origin master	//Pushing to the git repository.
 
+That's it for now.
