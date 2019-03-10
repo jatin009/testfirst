@@ -1,0 +1,8 @@
+Testing git setup.
+
+$ git config --global user.name "jatin009" //setting username
+
+$ git config --global user.email chauhanjatin13@gmail.com  //setting email id
+
+$ git clone https://github.com/jatin009/testfirst.git  //checking out git files
+
