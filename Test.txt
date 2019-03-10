@@ -1,8 +1,16 @@
-Testing git setup.
+Testing git setup. First go to your local Git directory.
 
 $ git config --global user.name "jatin009" //setting username
 
 $ git config --global user.email chauhanjatin13@gmail.com  //setting email id
 
 $ git clone https://github.com/jatin009/testfirst.git  //checking out git files
+
+$ git add Test.txt	//Adding a file to git
+
+$ git status	//To know of the addition, deletion or modification status of files in this directory.
+
+$ git commit -m "first commit" Test.txt	//Commiting the file
+
+$ git push -u origin master	//Pushing to the git repository.
 
