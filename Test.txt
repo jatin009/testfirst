@@ -16,4 +16,6 @@ $ git commit -m "first commit" Test.txt	//Commiting the file
 
 $ git push -u origin master	//Pushing to the git repository.
 
+$ git checkout -b new_branch_name existing_branch	//Creating new branch based on existing branch.
+
 That's it for now.
