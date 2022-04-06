@@ -18,4 +18,6 @@ $ git push -u origin master	//Pushing to the git repository.
 
 $ git checkout -b new_branch_name existing_branch	//Creating new branch based on existing branch.
 
+$ git checkout <branch_name> //Switch to branch <branch_name>
+
 That's it for now.
