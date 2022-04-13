@@ -28,4 +28,6 @@ $ git reset --hard //above "git checkout <branch_name>" might prevent switching 
 
 $ git pull // to sync remote branch with current local branch. This might require pre-removal of some files/directory 
 
+$ git branch -d <branch_name> // remove a branch locally
+
 That's it for now.
