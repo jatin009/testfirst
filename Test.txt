@@ -16,8 +16,16 @@ $ git commit -m "first commit" Test.txt	//Commiting the file
 
 $ git push -u origin master	//Pushing to the git repository.
 
+####### Branch switching ########
+
 $ git checkout -b new_branch_name existing_branch	//Creating new branch based on existing branch.
 
 $ git checkout <branch_name> //Switch to branch <branch_name>
+
+$ git branch //to see branches handled locally "git branch -a" for all branches
+
+$ git reset --hard //above "git checkout <branch_name>" might prevent switching due to conflicts. Use this command to drop all changes before switching.
+
+$ git pull // to sync remote branch with current local branch. This might require pre-removal of some files/directory 
 
 That's it for now.
