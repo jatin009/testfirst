@@ -30,4 +30,6 @@ $ git pull // to sync remote branch with current local branch. This might requir
 
 $ git branch -d <branch_name> // remove a branch locally
 
+$ git fetch // "git branch -a" may skip some branches particularly added after u checked out, so use "git fetch" first and then "git branch -a"
+
 That's it for now.
